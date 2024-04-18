@@ -8,6 +8,8 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Preloader from './components/preloader/Preloader';
+import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
     </main>
     <Footer />
     <ScrollUp/>
+    <SpeedInsights />
+    <Analytics />
     </>
   );
 }
