@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
 import AboutImg from "../../assets/profile.jpeg";
-import CV from "../../assets/John-Cv.pdf";
+import ChanZhiLin from "../../assets/ChanZhiLin_Resume.pdf"
 import Info from "./Info";
 
 const About = () => {
@@ -20,7 +20,7 @@ const About = () => {
                 A full-stack developer, I have been experience with enhacing the web pages with new features as well as troubleshooting system intricacies.
               </p>
 
-              <a download="" href={CV} className="button button--flex">
+              <a download="" href={ChanZhiLin} className="button button--flex">
                 Download CV
                 <svg
                   class="button__icon"
